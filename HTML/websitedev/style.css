@@ -1,20 +1,61 @@
-*{
+  *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
-}
-h1{
+   }
+ 
+   .Navbar{
+     display: flex;
+    justify-content: space-between;
+    margin-right: 4vw;
+   }
+   
+   ul{
+       display: flex;
+       align-items: center;
+   }
+     
+   li{
+       list-style: none;
+     margin-left: 2rem;
+     font-size: 1.5em;
+   }
+   
+   a{
+       text-decoration:none ;
+       color: rgb(0, 0, 0);
+   }
+   
+   a:hover{
+       color: lightskyblue;
+   }
+   
+   .skills{
+    display: flex;
+    justify-content: space-around;
+   }
+
+   .skills>div{
+    margin-left: 2vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 1rem;
+
+   }
+
+   h1{
    margin-left: 3rem;
    font-weight: 450;
-}
-li{
-    list-style: none;
-}
+   }
 
-img[src="./images/lap.jpeg"]{
+   li{
+    list-style: none;
+    }
+
+   img[src="./images/lap.jpeg"]{
     width:94vw ;
     margin-left:2vw ;
     margin-right:2vw ;
-  }
+   }
 
   .footer{
   padding-top:0.5rem ;
@@ -22,7 +63,7 @@ img[src="./images/lap.jpeg"]{
   background-color:black ;
   color:white ;
   text-align: center ;
- }
+   }
 
  .footer>p{
      font-size: 2rem;

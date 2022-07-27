@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin-top: 0.3%;
+}
+
+
+.first-div{
+    display: flex;
+     justify-content: space-between;  
+
+}
+
+ul{
+    display: flex;
+    align-content: center;
+    /* justify-content: space-between; */
+}
+
+li{
+    list-style: none;
+    margin-left: 1rem;
+    /* display: flex;
+    justify-content: space-between; */
+   
+}
+
+img{
+    margin-left: 7rem;
+    margin-top: -1rem;
+}
